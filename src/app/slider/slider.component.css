@@ -1,0 +1,17 @@
+.container_swiper {
+  max-width: 400px;
+  
+}
+.container_swiper img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color:#FFF;
+}
+
+h4{
+  font-size: 1.2rem;
+}

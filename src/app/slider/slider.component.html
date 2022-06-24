@@ -1,0 +1,16 @@
+
+<!-- Slider Swiper -->
+<div class="swiper container_swiper">
+    <div class="swiper-wrapper" >
+        
+        <div class="swiper-slide" *ngFor="let curso of cursos">
+            <div class="container-image">
+              <img src="assets/imagens/banner-01.jpg" alt="">
+              <h4>{{ curso }}</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
